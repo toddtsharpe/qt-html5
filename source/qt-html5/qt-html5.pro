@@ -6,7 +6,9 @@ CONFIG += c++11
 SOURCES += main.cpp \
     serialportmanager.cpp \
     commandlinemanager.cpp \
-    websocketmanager.cpp
+    websocketmanager.cpp \
+    websocket/websocketclientwrapper.cpp \
+    websocket/websockettransport.cpp
 
 RESOURCES += qml.qrc
 
@@ -19,4 +21,6 @@ include(deployment.pri)
 HEADERS += \
     serialportmanager.h \
     commandlinemanager.h \
-    websocketmanager.h
+    websocketmanager.h \
+    websocket/websocketclientwrapper.h \
+    websocket/websockettransport.h
