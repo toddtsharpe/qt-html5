@@ -8,6 +8,6 @@ Window {
 
     WebEngineView {
         anchors.fill: parent
-        url: "file:///" + appDirPath + "/html5/index.html"
+        url: "file:///" + applicationPath + "/html5/index.html"
     }
 }
