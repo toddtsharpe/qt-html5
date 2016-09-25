@@ -2,6 +2,7 @@
 #define COMMANDLINEMANAGER_H
 
 #include <QObject>
+#include <QCommandLineParser>
 
 class CommandLineManager : public QObject
 {
