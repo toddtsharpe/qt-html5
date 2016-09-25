@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-QT += qml quick
+QT += qml quick webengine websockets webchannel serialport
 CONFIG += c++11
 
 SOURCES += main.cpp
