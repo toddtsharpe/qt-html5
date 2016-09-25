@@ -1,5 +1,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QtWebEngine/QtWebEngine>
+#include "commandlinemanager.h"
+#include "websocketmanager.h"
+#include "serialportmanager.h"
 
 int main(int argc, char *argv[])
 {
